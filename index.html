@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منيو مطعم الرشيدي</title>
+    <!-- أيقونة المتصفح (Favicon) برابط مباشر لشعار المطعم -->
+    <link rel="icon" type="image/jpeg" href="https://i.ibb.co/6R7x71q/FB-IMG-1787831583160.jpg">
+    <style>
+        body {
+            font-family: 'Cairo', Tahoma, sans-serif;
+            background-color: #f7f3e9; /* خلفية بيج هادئة وفخمة */
+            color: #000000; /* اللون الأساسي أسود */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #fff;
+            text-align: center;
+            padding: 20px;
+            border-bottom: 3px solid #d4af37; /* لون ذهبي شيك */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        header h1 {
+            color: #000000; /* اسم المطعم أسود */
+            margin: 0;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 15px;
+        }
+        .section-title {
+            background-color: #8b0000;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 25px;
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .item-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 10px;
+            border-bottom: 1px solid #e6dec9;
+            background-color: #ffffff; /* كارد أبيض للأكل عشان يبرز بوضوح */
+            margin-top: 5px;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+        }
+        .item-name {
+            font-size: 16px;
+            font-weight: bold;
+            color: #000000; /* اسم الصنف أسود غامق */
+        }
+        .item-prices {
+            color: #000000; /* الأسعار باللون الأسود الواضح */
+            font-size: 15px;
+            font-weight: bold;
+            text-align: left;
+        }
+        .contact-box {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+        }
+        .contact-box p {
+            color: #000000;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .contact-btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>مطعم الرشيدي</h1>
+    </header>
+
+    <div class="container">
+
+        <!-- ركن البيتزا -->
+        <div class="section-title">ركن البيتزا</div>
+        <div class="item-row"><span class="item-name">مارجريتا</span><span class="item-prices">صغير: 120 / وسط: 160 / كبير: 200</span></div>
+        <div class="item-row"><span class="item-name">مفروم</span><span class="item-prices">صغير: 130 / وسط: 180 / كبير: 220</span></div>
+        <div class="item-row"><span class="item-name">سجق</span><span class="item-prices">صغير: 130 / وسط: 180 / كبير: 220</span></div>
+        <div class="item-row"><span class="item-name">شاورما فراخ</span><span class="item-prices">صغير: 150 / وسط: 200 / كبير: 250</span></div>
+        <div class="item-row"><span class="item-name">شاورما لحمة</span><span class="item-prices">صغير: 170 / وسط: 230 / كبير: 280</span></div>
+        <div class="item-row"><span class="item-name">مشكل جبن</span><span class="item-prices">صغير: 150 / وسط: 200 / كبير: 250</span></div>
+        <div class="item-row"><span class="item-name">مشكل فراخ</span><span class="item-prices">صغير: 160 / وسط: 220 / كبير: 270</span></div>
+        <div class="item-row"><span class="item-name">مشكل لحوم</span><span class="item-prices">صغير: 160 / وسط: 220 / كبير: 270</span></div>
+        <div class="item-row"><span class="item-name">سويسيس</span><span class="item-prices">صغير: 160 / وسط: 220 / كبير: 270</span></div>
+        <div class="item-row"><span class="item-name">تونا</span><span class="item-prices">صغير: 160 / وسط: 220 / كبير: 270</span></div>
+        <div class="item-row"><span class="item-name">بسطرمة</span><span class="item-prices">صغير: 170 / وسط: 230 / كبير: 280</span></div>
+        <div class="item-row"><span class="item-name">جمبري</span><span class="item-prices">صغير: 200 / وسط: 250 / كبير: 300</span></div>
+        <div class="item-row"><span class="item-name">بيتزا الرشيدي</span><span class="item-prices">صغير: 200 / وسط: 250 / كبير: 300</span></div>
+
+        <!-- ركن الفطير الشرقي -->
+        <div class="section-title">ركن الفطير الشرقي</div>
+        <div class="item-row"><span class="item-name">رومي</span><span class="item-prices">وسط: 130 / كبير: 180</span></div>
+        <div class="item-row"><span class="item-name">مفروم</span><span class="item-prices">وسط: 140 / كبير: 190</span></div>
+        <div class="item-row"><span class="item-name">سجق</span><span class="item-prices">وسط: 140 / كبير: 190</span></div>
+        <div class="item-row"><span class="item-name">شاورما فراخ</span><span class="item-prices">وسط: 160 / كبير: 220</span></div>
+        <div class="item-row"><span class="item-name">شاورما لحمة</span><span class="item-prices">وسط: 180 / كبير: 240</span></div>
+        <div class="item-row"><span class="item-name">مكس فراخ</span><span class="item-prices">وسط: 170 / كبير: 230</span></div>
+        <div class="item-row"><span class="item-name">مشكل جبن</span><span class="item-prices">وسط: 170 / كبير: 220</span></div>
+        <div class="item-row"><span class="item-name">مشكل لحوم</span><span class="item-prices">وسط: 170 / كبير: 230</span></div>
+        <div class="item-row"><span class="item-name">سويسيس</span><span class="item-prices">وسط: 170 / كبير: 230</span></div>
+        <div class="item-row"><span class="item-name">تونا</span><span class="item-prices">وسط: 170 / كبير: 240</span></div>
+        <div class="item-row"><span class="item-name">بسطرمة</span><span class="item-prices">وسط: 180 / كبير: 240</span></div>
+        <div class="item-row"><span class="item-name">جمبري</span><span class="item-prices">وسط: 220 / كبير: 280</span></div>
+        <div class="item-row"><span class="item-name">فطيرة الرشيدي</span><span class="item-prices">وسط: 220 / كبير: 280</span></div>
+
+        <!-- ركن الكريب الحادق -->
+        <div class="section-title">ركن الكريب الحادق</div>
+        <div class="item-row"><span class="item-name">كريب بطاطس</span><span class="item-prices">70 ج</span></div>
+        <div class="item-row"><span class="item-name">كريب مفروم</span><span class="item-prices">100 ج</span></div>
+        <div class="item-row"><span class="item-name">كريب رومي</span><span class="item-prices">100 ج</span></div>
+        <div class="item-row"><span class="item-name">كريب سجق</span><span class="item-prices">100 ج</span></div>
+        <div class="item-row"><span class="item-name">كريب كبدة</span><span class="item-prices">100 ج</span></div>
+        <div class="item-row"><span class="item-name">كريب فراخ شاورما</span><span class="item-prices">110 ج</span></div>
+        <div class="item-row"><span class="item-name">كريب شاورما لحمة</span><span class="item-prices">110 ج</span></div>
+        <div class="item-row"><span class="item-name">كريب مكس فراخ</span><span class="item-prices">130 ج</span></div>
+        <div class="item-row"><span class="item-name">كريب كريسبي</span><span class="item-prices">110 ج</span></div>
+        <div class="item-row"><span class="item-name">كريب زنجر</span><span class="item-prices">110 ج</span></div>
+        <div class="item-row"><span class="item-name">كريب سويسيس</span><span class="item-prices">120 ج</span></div>
+        <div class="item-row"><span class="item-name">كريب برجر</span><span class="item-prices">120 ج</span></div>
+        <div class="item-row"><span class="item-name">كريب مشكل جبن</span><span class="item-prices">120 ج</span></div>
+        <div class="item-row"><span class="item-name">كريب مشكل لحوم</span><span class="item-prices">120 ج</span></div>
+        <div class="item-row"><span class="item-name">كريب كفته</span><span class="item-prices">140 ج</span></div>
+        <div class="item-row"><span class="item-name">كريب بسطرمة</span><span class="item-prices">140 ج</span></div>
+        <div class="item-row"><span class="item-name">كريب جمبري</span><span class="item-prices">160 ج</span></div>
+        <div class="item-row"><span class="item-name">كريب الرشيدي</span><span class="item-prices">160 ج</span></div>
+
+        <!-- الصاروخ -->
+        <div class="section-title">ركن الصاروخ</div>
+        <div class="item-row"><span class="item-name">صاروخ مفروم</span><span class="item-prices">110 ج</span></div>
+        <div class="item-row"><span class="item-name">صاروخ سجق</span><span class="item-prices">110 ج</span></div>
+        <div class="item-row"><span class="item-name">صاروخ رومي</span><span class="item-prices">110 ج</span></div>
+        <div class="item-row"><span class="item-name">صاروخ شاورما فراخ</span><span class="item-prices">120 ج</span></div>
+        <div class="item-row"><span class="item-name">صاروخ شاورما لحمة</span><span class="item-prices">140 ج</span></div>
+        <div class="item-row"><span class="item-name">صاروخ مشكل جبن</span><span class="item-prices">120 ج</span></div>
+        <div class="item-row"><span class="item-name">صاروخ سويسيس</span><span class="item-prices">120 ج</span></div>
+        <div class="item-row"><span class="item-name">صاروخ تونا</span><span class="item-prices">120 ج</span></div>
+        <div class="item-row"><span class="item-name">صاروخ مكس فراخ</span><span class="item-prices">140 ج</span></div>
+        <div class="item-row"><span class="item-name">صاروخ مشكل لحوم</span><span class="item-prices">140 ج</span></div>
+        <div class="item-row"><span class="item-name">صاروخ بسطرمة</span><span class="item-prices">140 ج</span></div>
+        <div class="item-row"><span class="item-name">صاروخ جمبري</span><span class="item-prices">150 ج</span></div>
+        <div class="item-row"><span class="item-name">صاروخ الرشيدي</span><span class="item-prices">150 ج</span></div>
+
+        <!-- الفطير الحلو -->
+        <div class="section-title">ركن الفطير الحلو</div>
+        <div class="item-row"><span class="item-name">حلو سادة</span><span class="item-prices">وسط: 70 / كبير: 90</span></div>
+        <div class="item-row"><span class="item-name">كريمة ومكسرات</span><span class="item-prices">وسط: 100 / كبير: 140</span></div>
+        <div class="item-row"><span class="item-name">حلو اسكندراني</span><span class="item-prices">وسط: 110 / كبير: 150</span></div>
+        <div class="item-row"><span class="item-name">هريسة</span><span class="item-prices">وسط: 110 / كبير: 150</span></div>
+        <div class="item-row"><span class="item-name">بسبوسة</span><span class="item-prices">وسط: 110 / كبير: 150</span></div>
+        <div class="item-row"><span class="item-name">كنافة</span><span class="item-prices">وسط: 110 / كبير: 150</span></div>
+        <div class="item-row"><span class="item-name">شوكلاتة</span><span class="item-prices">وسط: 110 / كبير: 150</span></div>
+        <div class="item-row"><span class="item-name">مهلبية</span><span class="item-prices">وسط: 110 / كبير: 150</span></div>
+        <div class="item-row"><span class="item-name">قشطة وعسل</span><span class="item-prices">وسط: 110 / كبير: 150</span></div>
+        <div class="item-row"><span class="item-name">مشكل فواكه</span><span class="item-prices">وسط: 150 / كبير: 180</span></div>
+        <div class="item-row"><span class="item-name">حلو مشكل</span><span class="item-prices">وسط: 150 / كبير: 180</span></div>
+        <div class="item-row"><span class="item-name">حلو الرشيدي</span><span class="item-prices">وسط: 150 / كبير: 180</span></div>
+
+        <!-- الكريب الحلو -->
+        <div class="section-title">ركن الكريب الحلو</div>
+        <div class="item-row"><span class="item-name">شوكلاتة نوتيلا</span><span class="item-prices">60 ج</span></div>
+        <div class="item-row"><span class="item-name">شوكلاتة فواكه</span><span class="item-prices">75 ج</span></div>
+        <div class="item-row"><span class="item-name">شوكلاتة مكسرات</span><span class="item-prices">90 ج</span></div>
+
+        <!-- كبدة إسكندراني -->
+        <div class="section-title">ركن كبدة إسكندراني</div>
+        <div class="item-row"><span class="item-name">وجبة كبدة إسكندراني ثمن</span><span class="item-prices">60 ج</span></div>
+        <div class="item-row"><span class="item-name">ربع كبدة بدون طلبات</span><span class="item-prices">70 ج</span></div>
+        <div class="item-row"><span class="item-name">وجبة كبدة إسكندراني ربع</span><span class="item-prices">90 ج</span></div>
+        <div class="item-row"><span class="item-name">كبدة مكس ورك + كفته</span><span class="item-prices">280 ج</span></div>
+
+        <!-- ركن المشويات -->
+        <div class="section-title">ركن المشويات</div>
+        <div class="item-row"><span class="item-name">فرخة تكا</span><span class="item-prices">350 ج</span></div>
+        <div class="item-row"><span class="item-name">فرخة سوبر</span><span class="item-prices">400 ج</span></div>
+        <div class="item-row"><span class="item-name">فرخة شيش</span><span class="item-prices">400 ج</span></div>
+        <div class="item-row"><span class="item-name">كفتة فراخ</span><span class="item-prices">400 ج</span></div>
+        <div class="item-row"><span class="item-name">كفتة بلدي</span><span class="item-prices">600 ج</span></div>
+        <div class="item-row"><span class="item-name">وجبة كفتة بلدي</span><span class="item-prices">ثمن: 150 / ربع: 185</span></div>
+        <div class="item-row"><span class="item-name">وجبة مشكل</span><span class="item-prices">ربع: 200 / وسط: 300 / كبير: 380</span></div>
+        <div class="item-row"><span class="item-name">وجبة كباب ضاني</span><span class="item-prices">ربع: 230 / وسط: 350 / كبير: 450</span></div>
+        <div class="item-row"><span class="item-name">وجبة طرب</span><span class="item-prices">ربع: 185 / وسط: 280 / كبير: 350</span></div>
+        <div class="item-row"><span class="item-name">وجبة ريش</span><span class="item-prices">ربع: 230 / وسط: 350 / كبير: 450</span></div>
+        <div class="item-row"><span class="item-name">وجبة نيفا</span><span class="item-prices">ربع: 230 / وسط: 350 / كبير: 450</span></div>
+        <div class="item-row"><span class="item-name">وجبة لحمة باردة شرائح</span><span class="item-prices">ربع: 230 / وسط: 350 / كبير: 450</span></div>
+        <div class="item-row"><span class="item-name">وجبة شاورما لحمة</span><span class="item-prices">ربع: 230 / وسط: 350 / كبير: 450</span></div>
+
+        <!-- وجبات فراخ -->
+        <div class="section-title">وجبات فراخ</div>
+        <div class="item-row"><span class="item-name">وجبة فراخ ورك 1/1</span><span class="item-prices">تكا: 90 / سوبر: 120</span></div>
+        <div class="item-row"><span class="item-name">وجبة فراخ صدر 1/1</span><span class="item-prices">تكا: 110 / سوبر: 140</span></div>
+        <div class="item-row"><span class="item-name">وجبة فراخ 2/1</span><span class="item-prices">تكا: 180 / سوبر: 210</span></div>
+        <div class="item-row"><span class="item-name">وجبة كفتة فراخ</span><span class="item-prices">تكا: 130 / سوبر: 160</span></div>
+        <div class="item-row"><span class="item-name">وجبة شاورما فراخ</span><span class="item-prices">تكا: 200 / سوبر: 230</span></div>
+
+        <!-- الإضافات والطواجن -->
+        <div class="section-title">إضافات وطواجن</div>
+        <div class="item-row"><span class="item-name">أرز سادة</span><span class="item-prices">25 ج</span></div>
+        <div class="item-row"><span class="item-name">أرز بسمتي</span><span class="item-prices">35 ج</span></div>
+        <div class="item-row"><span class="item-name">شوربة لسان عصفور</span><span class="item-prices">30 ج</span></div>
+        <div class="item-row"><span class="item-name">طاجن خضار سادة</span><span class="item-prices">25 ج</span></div>
+        <div class="item-row"><span class="item-name">طاجن خضار باللحمة</span><span class="item-prices">190 ج</span></div>
+        <div class="item-row"><span class="item-name">طاجن ملوخية</span><span class="item-prices">50 ج</span></div>
+        <div class="item-row"><span class="item-name">طاجن كوارع</span><span class="item-prices">250 ج</span></div>
+        <div class="item-row"><span class="item-name">شوربة كوارع</span><span class="item-prices">150 ج</span></div>
+        <div class="item-row"><span class="item-name">فتة كوارع</span><span class="item-prices">250 ج</span></div>
+        <div class="item-row"><span class="item-name">حمام محشي (2 فرد)</span><span class="item-prices">270 ج</span></div>
+        <div class="item-row"><span class="item-name">موزة ضاني</span><span class="item-prices">400 ج</span></div>
+
+        <!-- ركن البروست -->
+        <div class="section-title">ركن البروست</div>
+        <div class="item-row"><span class="item-name">وجبة أطفال 2 قطعة استربس</span><span class="item-prices">90 ج</span></div>
+        <div class="item-row"><span class="item-name">3 قطع استربس</span><span class="item-prices">120 ج</span></div>
+        <div class="item-row"><span class="item-name">4 قطع استربس</span><span class="item-prices">170 ج</span></div>
+        <div class="item-row"><span class="item-name">6 قطع استربس</span><span class="item-prices">230 ج</span></div>
+        <div class="item-row"><span class="item-name">9 قطع استربس</span><span class="item-prices">340 ج</span></div>
+        <div class="item-row"><span class="item-name">15 قطعة استربس</span><span class="item-prices">550 ج</span></div>
+        <div class="item-row"><span class="item-name">2 قطعة فرايد تشيكن</span><span class="item-prices">120 ج</span></div>
+        <div class="item-row"><span class="item-name">4 قطع فرايد تشيكن</span><span class="item-prices">240 ج</span></div>
+        <div class="item-row"><span class="item-name">8 قطع فرايد تشيكن</span><span class="item-prices">450 ج</span></div>
+        <div class="item-row"><span class="item-name">12 قطعة فرايد تشيكن</span><span class="item-prices">650 ج</span></div>
+        <div class="item-row"><span class="item-name">16 قطعة فرايد تشيكن</span><span class="item-prices">850 ج</span></div>
+
+        <!-- السندوتشات السريعة والتيك أواي -->
+        <div class="section-title">السندوتشات السريعة والتيك أواي</div>
+        <div class="item-row"><span class="item-name">شاورما فراخ (سوري / وسط)</span><span class="item-prices">60 / 90 ج</span></div>
+        <div class="item-row"><span class="item-name">شاورما لحمة (سوري / وسط)</span><span class="item-prices">60 / 90 ج</span></div>
+        <div class="item-row"><span class="item-name">كرسبي وسط</span><span class="item-prices">60 / 90 ج</span></div>
+        <div class="item-row"><span class="item-name">زنجر وسط</span><span class="item-prices">90 ج</span></div>
+        <div class="item-row"><span class="item-name">بطاطس موتزاريلا</span><span class="item-prices">40 / 60 ج</span></div>
+        <div class="item-row"><span class="item-name">بطاطس عادي</span><span class="item-prices">25 / 40 ج</span></div>
+        <div class="item-row"><span class="item-name">سندوتش كبدة شامي</span><span class="item-prices">20 ج</span></div>
+        <div class="item-row"><span class="item-name">سندوتش كفتة حاتي</span><span class="item-prices">90 ج</span></div>
+        <div class="item-row"><span class="item-name">سندوتش شيش طاووق</span><span class="item-prices">90 ج</span></div>
+
+        <!-- الفتة والطواجن -->
+        <div class="section-title">ركن الفتة وطواجن المكرونة</div>
+        <div class="item-row"><span class="item-name">فتة شاورما فراخ</span><span class="item-prices">وسط: 100 / سوبر: 140</span></div>
+        <div class="item-row"><span class="item-name">فتة شاورما لحمة</span><span class="item-prices">وسط: 120 / سوبر: 160</span></div>
+        <div class="item-row"><span class="item-name">فتة زنجر / كرسبي</span><span class="item-prices">وسط: 110 / سوبر: 150</span></div>
+        <div class="item-row"><span class="item-name">طاجن مكرونة فراخ</span><span class="item-prices">75 ج</span></div>
+        <div class="item-row"><span class="item-name">طاجن مكرونة مفروم</span><span class="item-prices">75 ج</span></div>
+
+        <!-- الكشري -->
+        <div class="section-title">ركن الكشري</div>
+        <div class="item-row"><span class="item-name">كشري سادة</span><span class="item-prices">وسط: 20 / كبير: 30 / سوبر: 40</span></div>
+        <div class="item-row"><span class="item-name">كشري كبدة</span><span class="item-prices">صغير: 40 / وسط: 50 / كبير: 65 / سوبر: 90</span></div>
+
+        <!-- أزرار التواصل -->
+        <div class="contact-box">
+            <p>خدمة التوصيل والدليفري</p>
+            <a href="tel:01277011098" class="contact-btn">📞 اتصل بنا: 01277011098</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
